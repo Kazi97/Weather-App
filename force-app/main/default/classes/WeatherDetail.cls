@@ -4,7 +4,7 @@ public with sharing class WeatherDetail {
     public static Map<String,Object> retriveWeatherData(String city){
 
         String cityName = city.replace(' ','+');
-        String apiKey = '3c398eab0250faa0c839253724437072';
+        String apiKey = 'replace_it_with_your_own__ you_can_get from_openweatherAPI_website.__Its_free_😀';
         String url = 'http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid='+apikey;
         //String url = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=700103&date=09-07-2021';
         
