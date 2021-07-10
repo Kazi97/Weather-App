@@ -6,7 +6,6 @@ public with sharing class WeatherDetail {
         String cityName = city.replace(' ','+');
         String apiKey = 'replace_it_with_your_own__ you_can_get from_openweatherAPI_website.__Its_free_😀';
         String url = 'http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid='+apikey;
-        //String url = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=700103&date=09-07-2021';
         
         System.debug(url);
         HttpRequest request = new HttpRequest();
